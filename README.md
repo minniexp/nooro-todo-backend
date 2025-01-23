@@ -16,8 +16,8 @@ This is the backend application for the Todo List App, built with Express.js and
    Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/todo-backend.git
-   cd todo-backend
+   git clone https://github.com/minniexp/nooro-todo-backend.git
+   cd nooro-todo-backend
    ```
 
 2. **Install Dependencies**
@@ -34,7 +34,7 @@ This is the backend application for the Todo List App, built with Express.js and
 
    ```plaintext
    PORT=3001
-   DATABASE_URL=mysql://your_mysql_username:your_mysql_password@localhost:3306/todo
+   DATABASE_URL=mysql://your_mysql_username:your_mysql_password@localhost:3306/to_do_db
    ```
 
    Adjust the `DATABASE_URL` to match your MySQL configuration.
@@ -42,10 +42,10 @@ This is the backend application for the Todo List App, built with Express.js and
 4. **Setup MySQL Database**
 
    - Ensure your MySQL server is running.
-   - Create a new database named `todo` (or adjust the name in the `DATABASE_URL` if you prefer a different name):
+   - Create a new database named `to_do_db` (or adjust the name in the `DATABASE_URL` if you prefer a different name):
 
      ```sql
-     CREATE DATABASE todo;
+     CREATE DATABASE to_do_db;
      ```
 
 5. **Database Setup with Prisma**
