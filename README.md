@@ -65,6 +65,7 @@ This is the backend application for the Todo List App, built with Express.js and
    ```bash
    npm start
    ```
+   Frontend Repository is located at the following: https://github.com/minniexp/nooro-todo-frontend
 
 ## Project Structure
 
