@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Task` MODIFY `title` VARCHAR(240) NOT NULL;
